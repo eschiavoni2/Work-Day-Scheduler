@@ -69,3 +69,28 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+#one {
+  border-right: #000000 dotted thin;
+  border-top: dotted black thin;
+  border-bottom: black dotted thin;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 1px;
+}
+
+#two {
+  border: thin solid black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 1px;
+}
+
+#three {
+  border: black solid thin;
+  padding-top: 30px;
+  padding-bottom: 30px; 
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 1px;
+}
