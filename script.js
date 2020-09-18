@@ -36,7 +36,7 @@ $(document).ready(function () {
         var fiveP = localStorage.getItem("5p");
         $('#5').val(fiveP);
     };
-
+    // function to check if current time is equal to planner time, and color codes according to future, past or present.
     function timeCheck() {
         $(".row").each(function () {
             var hour = parseInt($(this).attr("id"))
@@ -56,7 +56,7 @@ $(document).ready(function () {
             }
         });
     }
-
+    // call functions
     timeCheck();
     scheduleDis();
 });
