@@ -23,10 +23,6 @@ textarea{
 
 .description{
   white-space: pre-wrap;
-  border: thin solid black;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 1px;
 }
 
 .time-block{
@@ -40,13 +36,10 @@ textarea{
   border-top: 1px solid white;;
 }
 
-.hour { 
-  border-right: #000000 dotted thin;
-  border-top: dotted black thin;
-  border-bottom: black dotted thin;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 1px;
+.hour {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-top: 1px dashed #000000;
 }
 
 .past {
