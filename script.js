@@ -1,10 +1,10 @@
 // load document first before jquery
-$( document ).ready(function() {
-// getting current time/day appended to page
-$("#currentDay").append(moment().format("dddd, MMMM Do h:mm:ss a"));
+$(document).ready(function () {
+    // getting current time/day appended to page
+    $("#currentDay").append(moment().format("dddd, MMMM Do h:mm:ss a"));
 
-// variable for current time
-var currentTime = moment().hour();
+    // variable for current time
+    var currentTime = moment().hour();
 
 
     function timeCheck() {
@@ -25,7 +25,13 @@ var currentTime = moment().hour();
                 $(this).addClass("future");
             }
         });
-    }
-    timeCheck();
-});
 
+        function scheduleDis() {
+            var nineA = localStorage.getItem("9a");
+            $('#9').val(nineA);
+            var tenA = localStorage.getItem("10a");
+            $('#10').val(tenA);
+        }  
+    timeCheck();
+    scheduleDis();
+    });
