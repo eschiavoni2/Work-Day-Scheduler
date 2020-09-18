@@ -28,3 +28,4 @@ var currentTime = moment().hour();
     }
     timeCheck();
 });
+
